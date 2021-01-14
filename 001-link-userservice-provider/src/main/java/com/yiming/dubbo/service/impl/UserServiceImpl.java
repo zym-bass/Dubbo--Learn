@@ -3,6 +3,8 @@ package com.yiming.dubbo.service.impl;
 import com.yiming.dubbo.model.User;
 import com.yiming.dubbo.service.UserService;
 
+
+
 public class UserServiceImpl implements UserService {
     @Override
     public User queryUserById(Integer id) {

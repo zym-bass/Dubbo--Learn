@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="001-link-userservice-provider" />
+        <module name="002-link-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="001-link-userservice-provider" target="1.8" />
+      <module name="002-link-consumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
