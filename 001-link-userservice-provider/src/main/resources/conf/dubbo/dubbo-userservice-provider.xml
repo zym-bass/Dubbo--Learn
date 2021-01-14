@@ -21,7 +21,7 @@
         ref:接口引用的实现类在spring容器的中的标识
         registry:如果不使用注册中心，则值为：H/A
     -->
-    <dubbo:service interface="com.yiming.dubbo.service.UserService" ref="userService" registry="N/A" ></dubbo:service>
+    <dubbo:service interface="com.yiming.dubbo.service.UserService" ref="userService"  registry="N/A" ></dubbo:service>
 
 
     <!--将接口的实现类加载到spring容器中-->
