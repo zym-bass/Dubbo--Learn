@@ -5,6 +5,8 @@
     <file type="web" url="file://$PROJECT_DIR$/002-link-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/004-link-userservice-provider" />
     <file type="web" url="file://$PROJECT_DIR$/005-link-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/07-zk-userservice-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/08-zk-consumer" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,6 +16,9 @@
         <option value="$PROJECT_DIR$/003-link-interface/pom.xml" />
         <option value="$PROJECT_DIR$/004-link-userservice-provider/pom.xml" />
         <option value="$PROJECT_DIR$/005-link-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/06-zk-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/07-zk-userservice-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/08-zk-consumer/pom.xml" />
       </list>
     </option>
   </component>
