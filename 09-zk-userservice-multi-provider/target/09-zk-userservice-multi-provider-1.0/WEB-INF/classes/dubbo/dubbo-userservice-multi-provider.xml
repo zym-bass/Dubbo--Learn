@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!--服务提供者名称-保证其唯一性-->
+    <dubbo:application name="09-zk-userservice-multi-provider"></dubbo:application>
+
+    <!--声明dubbo的协议和端口号-->
+    <dubbo:protocol name="dubbo" port="20880" ></dubbo:protocol>
+
+    <!--使用注册中心-->
+    <dubbo:registry address="zookeeper://192.168.201.230:2181"></dubbo:registry>
+
+
+
+    <!--暴露服务接口-->
+    <dubbo:service interface="com.yiming.service.UserService" ref="userService1" version="0.0.1" ></dubbo:service>
+    <dubbo:service interface="com.yiming.service.UserService" ref="userService2" version="0.0.2" ></dubbo:service>
+
+
+</beans>
